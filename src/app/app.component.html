@@ -1,3 +1,12 @@
-<main>
+<div class="h-screen overflow-y-hidden">
   <app-navbar />
-</main>
+  <main class="flex flex-grow h-full">
+    <div class="w-3/4 flex mx-2 my-2 h-full">
+      <feed-card class="flex-grow" />
+    </div>
+
+    <div class="w-1/4 flex mr-2 ml-0 my-2">
+      <recommendation-card class="flex-grow" />
+    </div>
+  </main>
+</div>
